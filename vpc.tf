@@ -11,6 +11,5 @@ module "network" {
     subnet_region = var.region
   }
 ]
-  # insert required variables here
-  # This is a test file
+ 
 }
