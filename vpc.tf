@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/ssandire-training/network/google"
   version = "2.5.0"
   network_name = gaurav-network
-  routing_node ="GLOBAL"
+  # routing_node ="GLOBAL"
   project_id = var.project
   subnets = [
   {
